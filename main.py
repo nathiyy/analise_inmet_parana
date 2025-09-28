@@ -28,6 +28,7 @@ plt.plot(data_temp_total.index, data_temp_total['TEMPERATURA_MEDIA'], color='ora
 plt.title("Temperatura média total da base (°C)")
 plt.xlabel("Data")
 plt.show()
+plt.savefig('grafico_temp_med_total_base.png')
 
 # ==============================
 # 1) Temperatura mínima, média e máxima por ano
@@ -52,6 +53,7 @@ plt.ylabel("Temperatura (°C)")
 plt.legend()
 plt.grid()
 plt.show()
+plt.savefig('grafico_temp_med_min_max.png')
 
 # ==============================
 # 2) Temperatura média por mês (média considerando todos os anos)
@@ -73,6 +75,7 @@ plt.ylabel("Temperatura (°C)")
 plt.xticks(range(1,13))
 plt.grid()
 plt.show()
+plt.savefig('grafico_temp_med_mes.png')
 
 # ==============================
 # 3) Volume de chuva por mês (média considerando todos os anos)
@@ -94,6 +97,7 @@ plt.ylabel("Chuva (mm)")
 plt.xticks(range(1,13))
 plt.grid(axis='y')
 plt.show()
+plt.savefig('grafico_volume_chuva_med_mes.png')
 
 
 
@@ -171,8 +175,7 @@ lines, labels = ax1.get_legend_handles_labels()
 lines2, labels2 = ax2.get_legend_handles_labels()
 ax2.legend(lines + lines2, labels + labels2, loc='upper left')
 plt.show()
-
-
+plt.savefig('grafico_final_com_legenda_completa.png')
 
 
 
