@@ -41,22 +41,4 @@ Instale todas as dependências do projeto através do terminal com o seguinte co
 pip install pandas matplotlib numpy seaborn
 
  ## 📊 Visualizações e Resultados
-### 1. Temperaturas Média, Mínima e Máxima por Ano (°C)
-*Este gráfico de linha mostra a evolução da temperatura ao longo de todos os anos disponíveis na base, permitindo identificar tendências de longo prazo ou anomalias.*
 
-![Gráfico de Temperatura Média, Mínima e Máxima por Ano](image_551367.png)
-
-### 2. Ciclo Sazonal da Temperatura Média Mensal (°C)
-*Aqui, é possível ver o padrão sazonal de temperatura, destacando os meses mais quentes (Verão) e mais frios (Inverno) ao calcular a média de todos os anos para cada mês.*
-
-![Gráfico de Temperatura Média por Mês](image_551361.png)
-
-### 3. Volume Médio de Chuva por Mês (mm)
-*Um gráfico de barras essencial para o planejamento hídrico e agrícola, exibindo o volume médio de precipitação por mês e identificando o período de maior e menor incidência de chuvas.*
-
-![Gráfico de Volume Médio de Chuva por Mês](WhatsApp Image 2025-09-28 at 17.26.45.jpeg)
-
-### 4. Série Temporal da Temperatura Média Diária (°C)
-*Uma visão de alta granularidade da temperatura média registrada ao longo de toda a série histórica, útil para observar a variação e volatilidade diária.*
-
-![Gráfico de Temperatura Média Total da Base](image_55160d.jpg)
