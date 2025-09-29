@@ -40,7 +40,7 @@ Instale todas as dependências do projeto através do terminal com o seguinte co
 ```bash
 pip install pandas matplotlib numpy seaborn
 
- ## 📊 Visualizações e Resultados
+ # 📊 Visualizações e Resultados
 
 Os gráficos gerados revelam informações valiosas sobre o clima da região analisada.
 
